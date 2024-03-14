@@ -1,0 +1,120 @@
+article{
+    font-family: Helvetica;
+    background-color:#e0ebeb;
+    color: #080808;
+    width: 90%;
+    margin: auto;
+    flex: auto;
+    
+}
+
+main{
+    background-color: #85adad;
+    color:black;
+    width: 100%;
+    height: 100px;
+    flex:auto;
+}
+header{
+    padding: 20px;
+    text-align: center;
+    background-color:#e0ebeb;
+    display: flex;
+    font-family: 'Lucida Sans';
+    justify-content: center;
+    font-size: 20px;
+
+
+}
+footer{
+    background-color: #85adad;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    
+}
+table{
+    margin: 40px;
+}
+td{
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 120%;
+
+}
+a:hover{
+    color: white;
+}
+li{
+    display: inline-block;   
+    padding: 5px;
+    margin: 10px;
+    border-bottom: 1px solid white;
+   
+}
+#logo{
+width:100px;
+}
+h1{
+    text-align: center;
+
+}
+img{
+    display:block;
+    max-width: 100%;
+}
+#baner{
+    display: block;
+    width: 300px;
+    border-radius: 80px;
+}
+#rast{
+    display: flex;
+    padding-right: 20%;
+}
+#wekt{
+    display: flex;
+    padding-right:20% ;
+}
+#o1{
+    border: 1px solid beige;
+    padding: 2%;
+}
+#o2{
+    border: 1px solid beige;
+    padding: 2%;
+}
+h4{
+    color:rgb(140, 62, 62);
+}
+
+#blok{
+   display:flex; 
+   margin: auto;
+   justify-content: center;
+}
+
+#oko{
+    display:flex;
+    justify-content: center;
+    font-size: 120%;
+    margin: auto;
+
+}
+button{
+    background-color:rgb(56, 61, 56);
+    color: white;
+ 
+}
+#mainImage{
+    border: 40px solid #85adad;
+}
+h2{
+    font-family:Lucida Sans;
+    font-size: 40px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <title>Kolory</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styl2.css">
+    <meta name="viweport" content="width-device-width, initial-scale=1.0"/>
+
+</head>
+<body>
+
+<header>
+    <div id="graf">
+        <h1>Grafika</h1>
+        </div>
+    <div id="logo">
+        <img src="logo.png" alt="logo">
+    </div>
+    <div>
+        <img src="draw.png" width="200" height="100" id="pat2">   
+        </div>  
+</header>
+<main>
+    <ul>
+        <li><a href="index.html">Główna</a></li>
+        <li><a href="kolory.html">Kolory</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+</main>
+<article>
+    <h2>Podaj składową H koloru w kodzie HSL</h2>
+    <p>0 do 30 czerwienie, do 60 żółcie, do 150 zielone, do 250 niebieskie, do 360 fiolet i purpura</p>
+    <img src="kolory.jpg" alt="Przestrzeń barw HSL"><br>
+    <input type="number" id="hsl" max="360" placeholder="0-360">
+    <input type="button" value="Generuj paletę" onclick="skrypt()">
+
+    <table id="tabela">
+        <tr>
+            <td colspan="4">Kolor główny</td>
+        </tr>
+        <tr>
+            <td>Kolor 2</td>
+            <td>Kolor 3</td>
+            <td>Kolor 4</td>
+            <td>Kolor 5</td>
+        </tr>
+    </table>
+</article>
+<footer>
+    <p>Autor: Beata Stępień</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
